@@ -15,8 +15,7 @@ def insertion_sort_desc(arr):
     return arr
 
 
-numbers = [5, 2, 9, 1, 7, 6]
-
-print("Original array:", numbers)
-sorted_numbers = insertion_sort_desc(numbers)
-print("Sorted array:", sorted_numbers)
+if __name__ == "__main__":
+    numbers = [5, 2, 9, 1, 7, 6]
+    print("Original array:", numbers)
+    print("Sorted in monotonically decreasing order:", insertion_sort_desc(numbers.copy()))
