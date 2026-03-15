@@ -1,0 +1,19 @@
+Algorithm,Dataset Type,Input Size,Execution Time (s),Peak Memory Usage (KB)
+Merge Sort,Sorted,1000,0.004556,28.17
+Quick Sort,Sorted,1000,0.00471,33.62
+Merge Sort,Reverse Sorted,1000,0.004038,27.41
+Quick Sort,Reverse Sorted,1000,0.004724,32.74
+Merge Sort,Random,1000,0.005945,24.66
+Quick Sort,Random,1000,0.006326,35.88
+Merge Sort,Sorted,5000,0.035903,136.78
+Quick Sort,Sorted,5000,0.026131,162.51
+Merge Sort,Reverse Sorted,5000,0.033138,136.78
+Quick Sort,Reverse Sorted,5000,0.02328,162.62
+Merge Sort,Random,5000,0.057389,120.98
+Quick Sort,Random,5000,0.045192,221.12
+Merge Sort,Sorted,10000,0.084601,273.5
+Quick Sort,Sorted,10000,0.052618,322.39
+Merge Sort,Reverse Sorted,10000,0.077295,273.5
+Quick Sort,Reverse Sorted,10000,0.053165,322.5
+Merge Sort,Random,10000,0.125992,243.06
+Quick Sort,Random,10000,0.06515,355.14
